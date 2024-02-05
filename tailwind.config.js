@@ -2,7 +2,17 @@
 module.exports = {
   content: ["./public/index.html"],
   theme: {
-    extend: {},
+    fontFamily: {
+      inter: ['Inter', 'sans-serif'],
+      montserrat: ['Montserrat', 'sans-serif'],
+      opensans: ['Open Sans', 'sans-serif']
+    },
+    extend: {
+      colors: {
+        'regal-blue': '#243c5a',
+      },
+    }
+    
   },
   plugins: [],
 }
