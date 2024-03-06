@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+
+header{
+    z-index: 10001;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 42px;
+    border: 1px solid black ;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+    margin: 12px auto;
+}
